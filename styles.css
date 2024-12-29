@@ -43,7 +43,7 @@ section {
 
 section h2 {
     font-size: 1.8em;
-    color: #001f3f;
+    color: #001f3f; /* Royal Navy Blue for section headers */
     border-bottom: 2px solid #003366;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
@@ -63,7 +63,7 @@ ul li {
 footer {
     text-align: center;
     padding: 1em 0;
-    background: #001f3f;
+    background: #001f3f; /* Royal Navy Blue for footer */
     color: white;
     font-size: 0.9em;
 }
