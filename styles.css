@@ -1,78 +1,50 @@
-/* Global Styles */
+/* Global Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.8;
     margin: 0;
     padding: 0;
-    background-color: #fefefe;
+    background-color: #f9f9f9;
     color: #333;
 }
 
 /* Header */
 header {
     text-align: center;
-    background: linear-gradient(90deg, #6a1b9a, #ab47bc);
+    background: #4CAF50;
     color: white;
     padding: 1.5em 0;
 }
 
 header h1 {
-    font-size: 2.5em;
     margin: 0;
+    font-size: 2.5em;
 }
 
 header p {
-    font-size: 1.2em;
     margin: 0.5em 0 0;
-}
-
-/* Navigation */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0.5em 0;
-    background: #6a1b9a;
-    margin: 0;
-}
-
-nav ul li {
-    margin: 0 1em;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover {
-    background-color: #ab47bc;
+    font-size: 1em;
 }
 
 /* Main Content */
 main {
-    padding: 2em;
     max-width: 900px;
-    margin: auto;
-    background: #fff;
+    margin: 2em auto;
+    background: white;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2em;
 }
 
 /* Sections */
 section {
     margin-bottom: 2em;
-    padding: 1em 0;
 }
 
-h2 {
+section h2 {
     font-size: 1.8em;
-    color: #6a1b9a;
-    border-bottom: 2px solid #ab47bc;
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
@@ -91,34 +63,7 @@ ul li {
 footer {
     text-align: center;
     padding: 1em 0;
-    background: #6a1b9a;
+    background: #4CAF50;
     color: white;
     font-size: 0.9em;
-    margin-top: 2em;
-}
-
-footer a {
-    color: #ffffff;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-/* Additions for a Professional Touch */
-header h1, h2 {
-    font-family: 'Georgia', serif;
-}
-
-main {
-    animation: fadeIn 1s ease-in-out;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
