@@ -14,6 +14,7 @@ header {
     background: linear-gradient(90deg, #001f3f, #003366); /* Royal Navy Blue Gradient */
     color: white;
     padding: 2em 0;
+    border-bottom: 5px solid #003366;
 }
 
 header h1 {
@@ -66,4 +67,15 @@ footer {
     background: #001f3f; /* Royal Navy Blue for footer */
     color: white;
     font-size: 0.9em;
+}
+
+/* Buttons or Links (Optional Styling) */
+a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
