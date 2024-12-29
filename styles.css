@@ -1,4 +1,4 @@
-/* Global Styling */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.8;
@@ -11,9 +11,9 @@ body {
 /* Header */
 header {
     text-align: center;
-    background: #4CAF50;
+    background: linear-gradient(90deg, #001f3f, #003366); /* Royal Navy Blue Gradient */
     color: white;
-    padding: 1.5em 0;
+    padding: 2em 0;
 }
 
 header h1 {
@@ -22,7 +22,7 @@ header h1 {
 }
 
 header p {
-    margin: 0.5em 0 0;
+    margin: 0.5em 0;
     font-size: 1em;
 }
 
@@ -36,15 +36,15 @@ main {
     padding: 2em;
 }
 
-/* Sections */
+/* Section Styling */
 section {
     margin-bottom: 2em;
 }
 
 section h2 {
     font-size: 1.8em;
-    color: #4CAF50;
-    border-bottom: 2px solid #4CAF50;
+    color: #001f3f;
+    border-bottom: 2px solid #003366;
     padding-bottom: 0.5em;
     margin-bottom: 1em;
 }
@@ -63,7 +63,7 @@ ul li {
 footer {
     text-align: center;
     padding: 1em 0;
-    background: #4CAF50;
+    background: #001f3f;
     color: white;
     font-size: 0.9em;
 }
